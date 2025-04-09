@@ -1,0 +1,377 @@
+{
+    "data": [
+      {
+        "tokens": [
+          "Brochures",
+          "100",
+          "pack",
+          "1",
+          "$",
+          "22",
+          "$",
+          "22"
+        ],
+        "tags": [
+          "B-ITEM",
+          "I-ITEM",
+          "I-ITEM",
+          "B-QTY",
+          "O",
+          "B-PRICE",
+          "O",
+          "B-AMOUNT"
+        ]
+      },
+      {
+        "tokens": [
+          "Business",
+          "Cards",
+          "10",
+          "pack",
+          "1",
+          "$",
+          "25.50",
+          "$",
+          "25.50"
+        ],
+        "tags": [
+          "B-ITEM",
+          "I-ITEM",
+          "I-ITEM",
+          "I-ITEM",
+          "B-QTY",
+          "O",
+          "B-PRICE",
+          "O",
+          "I-ITEM"
+        ]
+      },
+      {
+        "tokens": [
+          "Student",
+          "badges",
+          "200",
+          "pack",
+          "1",
+          "$",
+          "34",
+          "$",
+          "34"
+        ],
+        "tags": [
+          "B-ITEM",
+          "I-ITEM",
+          "I-ITEM",
+          "I-ITEM",
+          "B-QTY",
+          "O",
+          "B-PRICE",
+          "O",
+          "B-AMOUNT"
+        ]
+      },
+      {
+        "tokens": [
+          "Subtotal",
+          "$",
+          "81.50"
+        ],
+        "tags": [
+          "O",
+          "O",
+          "B-SUBTOTAL"
+        ]
+      },
+      {
+        "tokens": [
+          "Tax",
+          "$",
+          "815"
+        ],
+        "tags": [
+          "O",
+          "O",
+          "B-TAX"
+        ]
+      },
+      {
+        "tokens": [
+          "Total",
+          "$",
+          "98.65"
+        ],
+        "tags": [
+          "O",
+          "O",
+          "B-TOTAL"
+        ]
+      },
+      {
+        "tokens": [
+          "Card",
+          "Design",
+          "4",
+          "$",
+          "100",
+          "$",
+          "100"
+        ],
+        "tags": [
+          "B-ITEM",
+          "I-ITEM",
+          "B-QTY",
+          "O",
+          "B-PRICE",
+          "O",
+          "B-AMOUNT"
+        ]
+      },
+      {
+        "tokens": [
+          "Flyer",
+          "Design",
+          "2",
+          "$",
+          "200",
+          "$",
+          "400"
+        ],
+        "tags": [
+          "B-ITEM",
+          "I-ITEM",
+          "B-QTY",
+          "O",
+          "B-PRICE",
+          "O",
+          "B-AMOUNT"
+        ]
+      },
+      {
+        "tokens": [
+          "Logo",
+          "Design",
+          "4",
+          "$",
+          "200",
+          "$",
+          "200"
+        ],
+        "tags": [
+          "B-ITEM",
+          "I-ITEM",
+          "B-QTY",
+          "O",
+          "I-PRICE",
+          "O",
+          "B-AMOUNT"
+        ]
+      },
+      {
+        "tokens": [
+          "Social",
+          "Media",
+          "Branding",
+          "4",
+          "$",
+          "100",
+          "$",
+          "400"
+        ],
+        "tags": [
+          "B-ITEM",
+          "I-ITEM",
+          "I-ITEM",
+          "B-QTY",
+          "O",
+          "I-PRICE",
+          "O",
+          "B-AMOUNT"
+        ]
+      },
+      {
+        "tokens": [
+          "SUBTOTAL",
+          "$",
+          "1400"
+        ],
+        "tags": [
+          "O",
+          "O",
+          "B-SUBTOTAL"
+        ]
+      },
+      {
+        "tokens": [
+          "TAX",
+          "(",
+          "10",
+          "%",
+          ")",
+          "$",
+          "140"
+        ],
+        "tags": [
+          "O",
+          "O",
+          "B-TAX_RATE",
+          "O",
+          "O",
+          "O",
+          "B-TAX"
+        ]
+      },
+      {
+        "tokens": [
+          "GRAND",
+          "TOTAL",
+          "$",
+          "1540"
+        ],
+        "tags": [
+          "O",
+          "O",
+          "O",
+          "B-TOTAL"
+        ]
+      },
+      {
+        "tokens": [
+          "Pipe",
+          "leak",
+          "repairs",
+          "2",
+          "$",
+          "50",
+          "$",
+          "100"
+        ],
+        "tags": [
+          "B-ITEM",
+          "I-ITEM",
+          "I-ITEM",
+          "B-QTY",
+          "O",
+          "B-PRICE",
+          "O",
+          "B-AMOUNT"
+        ]
+      },
+      {
+        "tokens": [
+          "Maintenance",
+          "checks",
+          "3",
+          "$",
+          "30.50",
+          "$",
+          "91.50"
+        ],
+        "tags": [
+          "B-ITEM",
+          "I-ITEM",
+          "B-QTY",
+          "O",
+          "B-PRICE",
+          "O",
+          "B-AMOUNT"
+        ]
+      },
+      {
+        "tokens": [
+          "1",
+          "BFOF",
+          "Cassette",
+          "$",
+          "40",
+          "$",
+          "40"
+        ],
+        "tags": [
+          "B-QTY",
+          "B-ITEM",
+          "I-ITEM",
+          "O",
+          "B-PRICE",
+          "O",
+          "B-AMOUNT"
+        ]
+      },
+      {
+        "tokens": [
+          "2",
+          "Tape",
+          "Cases",
+          "$",
+          "35",
+          "$",
+          "70"
+        ],
+        "tags": [
+          "B-QTY",
+          "B-ITEM",
+          "I-ITEM",
+          "O",
+          "B-PRICE",
+          "O",
+          "B-AMOUNT"
+        ]
+      }
+    ],
+    "labels": [
+      "O",
+      "B-ITEM",
+      "I-ITEM",
+      "B-QTY",
+      "I-QTY",
+      "B-PRICE",
+      "I-PRICE",
+      "B-AMOUNT",
+      "I-AMOUNT",
+      "B-TOTAL",
+      "I-TOTAL",
+      "B-TAX",
+      "I-TAX",
+      "B-TAX_RATE",
+      "I-TAX_RATE",
+      "B-SUBTOTAL",
+      "I-SUBTOTAL"
+    ],
+    "label2id": {
+      "O": 0,
+      "B-ITEM": 1,
+      "I-ITEM": 2,
+      "B-QTY": 3,
+      "I-QTY": 4,
+      "B-PRICE": 5,
+      "I-PRICE": 6,
+      "B-AMOUNT": 7,
+      "I-AMOUNT": 8,
+      "B-TOTAL": 9,
+      "I-TOTAL": 10,
+      "B-TAX": 11,
+      "I-TAX": 12,
+      "B-TAX_RATE": 13,
+      "I-TAX_RATE": 14,
+      "B-SUBTOTAL": 15,
+      "I-SUBTOTAL": 16
+    },
+    "id2label": {
+      "0": "O",
+      "1": "B-ITEM",
+      "2": "I-ITEM",
+      "3": "B-QTY",
+      "4": "I-QTY",
+      "5": "B-PRICE",
+      "6": "I-PRICE",
+      "7": "B-AMOUNT",
+      "8": "I-AMOUNT",
+      "9": "B-TOTAL",
+      "10": "I-TOTAL",
+      "11": "B-TAX",
+      "12": "I-TAX",
+      "13": "B-TAX_RATE",
+      "14": "I-TAX_RATE",
+      "15": "B-SUBTOTAL",
+      "16": "I-SUBTOTAL"
+    }
+  }

@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+/dataset
+/output
+/test_data
+/txt_files
+
+
+*.h5
+.DS_Store
+*.zip
+*.png
+*.txt
+
+/invoice_bert_sequence_labeling
+/invoice_bert_tokenizer
+/image_text_extractor
