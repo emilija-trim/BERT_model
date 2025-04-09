@@ -78,12 +78,76 @@ tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
 # Process invoice
 invoice_text = """
-SAMPLE INVOICE
-Item 1    2    $10.00    $20.00
-Item 2    1    $15.00    $15.00
-Subtotal: $35.00
+Office Supplies 10 $5.99 $59.90
+Printer Paper 5 $12.50 $62.50
+Ink Cartridges 3 $35.00 $105.00
+Total Amount: $227.40
+Tax Rate: 8%
+Tax: $16.80
 """
 entities = predict_invoice(model, tokenizer, invoice_text, id2label)
+```
+
+### Example results
+```
+    Token-level predictions (by line):
+
+    Line 1:
+    Office: B-ITEM
+    Supplies: I-ITEM
+    10: B-QTY
+    $: O
+    5.99: B-PRICE
+    $: O
+    59.90: B-AMOUNT
+
+    Line 2:
+    Printer: B-ITEM
+    Paper: I-ITEM
+    5: B-QTY
+    $: O
+    12.50: B-PRICE
+    $: O
+    62.50: B-AMOUNT
+
+    Line 3:
+    Ink: B-ITEM
+    Cartridges: I-ITEM
+    3: B-QTY
+    $: O
+    35.00: B-PRICE
+    $: O
+    105.00: B-AMOUNT
+
+    Line 4:
+    Total: O
+    Amount:: O
+    $: B-TOTAL
+    227.40: B-TOTAL
+
+    Line 5:
+    Tax: O
+    Rate:: O
+    8: O
+    %: O
+
+    Line 6:
+    Tax:: O
+    $: O
+    16.80: O
+
+    Extracted Entities:
+    ITEM: ['Office Supplies', 'Printer Paper', 'Ink Cartridges']
+    QTY: ['10', '5', '3']
+    PRICE: ['5.99', '12.50', '35.00']
+    AMOUNT: ['59.90', '62.50', '105.00']
+    TOTAL: ['$', '227.40']
+
+    Formatted as Table:
+                ITEM QTY  PRICE  AMOUNT   TOTAL
+    0  Office Supplies  10   5.99   59.90       $
+    1    Printer Paper   5  12.50   62.50  227.40
+    2   Ink Cartridges   3  35.00  105.00
 ```
 
 ## Model Performance

@@ -393,7 +393,6 @@ def main():
 
     # Default sample invoice if the user doesn't provide input
     sample_invoice = user_input_invoice if user_input_invoice else """
-    SAMPLE INVOICE
     Item 1    2    $10.00    $20.00
     Item 2    1    $15.00    $15.00
     Subtotal: $35.00
