@@ -34,7 +34,7 @@ The model recognizes the following entities:
 ```
 
 ## Requirements
-Model ran on MACOS and tested with INTEL Core processor
+Model ran on MACOS and tested with INTEL Core processor.
 ```
     "matplotlib>=3.10.0",
     "numpy>=1.24.3",
@@ -50,8 +50,7 @@ Model ran on MACOS and tested with INTEL Core processor
 ## Usage
 
 ### Setting up
-Project is set with uv
-To set up the project you can run in the terminal:
+Project is set with uv. To set up the project you can run in the terminal:
 ``` 
     uv init
     uv sync
