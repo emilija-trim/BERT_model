@@ -50,8 +50,8 @@ Model ran on MACOS and tested with INTEL Core processor
 ## Usage
 
 ### Setting up
-    project is set with uv
-    to set up the project you can run in the terminal:
+Project is set with uv
+To set up the project you can run in the terminal:
 ``` 
     uv init
     uv sync
